@@ -1,0 +1,24 @@
+Message-ID: <5R1YajMXyxzgLDEUCMFVoX@mailpit>
+Return-Path: <security@northstar-support.example>
+Received: from [172.25.217.190] (unknown [172.17.0.1])
+        by 68d54f83c6c1 (Mailpit) with SMTP
+        for <employee@northstar.example>; Tue, 3 Nov 2026 15:07:43 +0000 (UTC)
+From: Northstar IT Support <security@northstar-support.example>
+To: employee@northstar.example
+Subject: Action Required: Account Verification
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+
+Hello,
+
+A security review has flagged your Northstar account
+for verification.
+
+Review your account notification:
+http://127.0.0.1:8080/index.html
+
+Northstar IT Support
+
+Authorized cybersecurity training simulation.
