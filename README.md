@@ -63,7 +63,7 @@ The absence of preserved HTTP access logs prevented confirmation of landing-page
 
 ## Python Phishing Detection
 
-A reusable Python script was developed to identify:
+A proof-of-concept Python detection script was developed to identify phishing indicators in the supplied plain-text EML evidence.
 
 - Sender-domain mismatches
 - Suspicious account-verification language
@@ -74,6 +74,16 @@ A reusable Python script was developed to identify:
 The script produces indicator-level alerts to support analyst triage.
 
 These indicators are not treated as independent proof of malicious activity.
+
+### Detection Limitations
+
+This script is a proof-of-concept designed for the supplied controlled phishing simulation.
+
+- It primarily examines plain-text email content and does not comprehensively analyze HTML messages.
+- Sender-domain mismatches and suspicious keywords may generate false positives.
+- Authentication-header presence checks do not validate SPF, DKIM, or DMARC.
+- URL analysis does not establish whether a destination is malicious.
+- Production deployment would require additional testing, domain authorization checks, logging, and detection tuning.
 
 ### Run the Detection Script
 
